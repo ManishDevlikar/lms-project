@@ -1,0 +1,38 @@
+<%- include('partials/header'); -%>
+
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Email</th>
+
+                <th>firstname</th>
+                <th>lastname</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>
+                    <li>
+                        <%= user.email %>
+                    </li>
+                </td>
+                <td>
+                    <li>
+                        <%= user.firstname%>
+                    </li>
+                </td>
+                <td>
+                    <li>
+                        <%= user.lastname %>
+                    </li>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <%- include('partials/footer'); -%>
