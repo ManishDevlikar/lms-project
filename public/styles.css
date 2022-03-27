@@ -166,13 +166,17 @@ footer{
   text-align: center;
   line-height: 5rem;
 }
-.video{
-display:grid;
-  justify-content: center;
-  column-gap: 30px;
-  row-gap: 80px;
-  margin: 80PX AUTO;
- 
+ .parent{
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+ .video{
+   width: 100vh;
+   height: 60vh;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+  
  }
 
  @media only screen and (max-width: 600px) {
@@ -180,12 +184,6 @@ display:grid;
     .cources{
       display: grid;
       grid-template-columns: 1fr 1fr;
-    }
-    header{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-content: center;
-    
     }
     nav{
       display: flex;
@@ -199,6 +197,28 @@ display:grid;
     }
     nav li{
       margin-left: 20px;
+    }
+    nav li a{
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 0.8em;
+      display: block;
+      padding: 5px 10px;
+      letter-spacing: 1px;
+      
+    }
+    .btn{
+      border-radius: 20px;
+      background: #FEE996;
+    }
+    .parent{
+      display: flex;
+   align-items: center;
+   justify-content: center;
+    }
+    .video{
+      width: 100vh;
+      height: 60vh;
     }
    
   
