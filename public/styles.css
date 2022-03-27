@@ -189,14 +189,14 @@ justify-content: center;
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
-      margin-bottom: 120px;
+      margin-bottom: 3em;
     }
     nav ul{
       display: flex;
       align-items: center;
     }
     nav li{
-      margin-left: 20px;
+      margin-left: 10px;
     }
     nav li a{
       text-transform: uppercase;
@@ -207,9 +207,18 @@ justify-content: center;
       letter-spacing: 1px;
       
     }
+    #user{
+      font-size: 0.7em;
+      font-weight: 500;
+    }
     .btn{
       border-radius: 20px;
       background: #FEE996;
+    }
+    header{
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr;
     }
     .parent{
       display: flex;
